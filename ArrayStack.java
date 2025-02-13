@@ -80,7 +80,5 @@ public class ArrayStack {
                     break;
             }
         } while (ch < 4);
-
-        sc.close();
     }
 }
