@@ -61,7 +61,7 @@ public class ArrayStack {
             System.out.println("2. Pop");
             System.out.println("3. Display Stack");
             System.out.println("4. Exit");
-            System.out.print("\nEnter your choice:");
+            System.out.print("Enter your choice:");
             ch = sc.nextInt();
 
             switch (ch) {
