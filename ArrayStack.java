@@ -61,12 +61,12 @@ public class ArrayStack {
             System.out.println("2. Pop");
             System.out.println("3. Display Stack");
             System.out.println("4. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter your choice:");
             ch = sc.nextInt();
 
             switch (ch) {
                 case 1:
-                    System.out.print("Enter the element to insert: ");
+                    System.out.print("Enter the element to insert:");
                     data = sc.nextInt();
                     s.push(data);
                     break;
