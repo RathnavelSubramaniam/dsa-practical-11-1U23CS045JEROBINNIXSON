@@ -25,7 +25,7 @@ public class ArrayStack {
 
     public int pop() {
         if (isEmpty()) {
-            System.out.println("Stack is Underflow. No elements to be popped in Empty Stack");
+            System.out.println("Stack is Overflow. Not possible to insert in Full stack");
             return -1;
         } else {
             return stack[top--];
