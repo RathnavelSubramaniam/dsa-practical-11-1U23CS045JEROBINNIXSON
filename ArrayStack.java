@@ -57,9 +57,9 @@ public class ArrayStack {
         int data, ch;
 
         do {
-            System.out.println("1. Push");
+            System.out.println("\n1. Push");
             System.out.println("2. Pop");
-            System.out.println("3. Display Stack");
+            System.out.println("3.Display Stack");
             System.out.println("4. Exit");
             System.out.print("\nEnter your choice:");
             ch = sc.nextInt();
