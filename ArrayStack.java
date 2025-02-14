@@ -25,7 +25,7 @@ public class ArrayStack {
 
     public int pop() {
         if (isEmpty()) {
-            System.out.println("Stack is Overflow. Not possible to insert in Full stack");
+            System.out.println("Stack is Underflow. No elements to be popped in Empty Stack");
             return -1;
         } else {
             return stack[top--];
@@ -42,7 +42,7 @@ public class ArrayStack {
 
     public void display() {
         if (isEmpty()) {
-            System.out.println("Stack is Underflow. No elements to display in Empty Stack");
+            System.out.println("Stack is Overflow. Not possible to insert in Full stack");
         } else {
             System.out.println("Stack Elements: Top of the Stack Element is");
             for (int i = top; i >= 0; i--) {
